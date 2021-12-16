@@ -1,0 +1,12 @@
+@use "layout" as *;
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a {
+    &:focus {
+      @include btnFocus;
+    }
+  }
+}
